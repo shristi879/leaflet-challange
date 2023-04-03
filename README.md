@@ -27,7 +27,7 @@ Dataset created by the United States Geological SurveyLinks to an external site.
 
 
 
-thi API link for retrieving earthquake data. It also defines two functions markerSize and markerColor that are used to determine the size and color of the markers that represent the earthquakes on the map,code makes a GET request to the API using the d3.json function and passes the earthquake data to the createFeatures function.
+ Overall,this API link for retrieving earthquake data. It also defines two functions markerSize and markerColor that are used to determine the size and color of the markers that represent the earthquakes on the map,code makes a GET request to the API using the d3.json function and passes the earthquake data to the createFeatures function.
 The createFeatures function creates a geoJSON layer for the earthquake data and defines the behavior of each feature on the layer.
  createMap function creates the Leaflet map, adds base layers and overlay layers to it, and adds a legend to the map to show the magnitude scale of the earthquakes.
 
